@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 2px black solid;
+    padding-bottom: 20px;
+}
+
+.navbar__title {
+    margin-right: auto;
+}
+
+.navbar__item {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}

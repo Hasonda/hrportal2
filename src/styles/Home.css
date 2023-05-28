@@ -1,0 +1,55 @@
+.vacancies__filters {
+    border: 2px solid black;
+    position: relative;
+    padding: 20px;
+    border-radius: 25px;
+    height: fit-content;
+}
+
+.vacancies {
+    display: grid;
+    grid-template-columns: 0.25fr 0.75fr;
+}
+
+.vacancy__list__item {
+    border: 2px solid black;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    font-weight: 300;
+}
+
+.vacancy__item__name {
+    font-size: 22px;
+}
+
+.vacancy__item__salary {
+    font-size: 18px;
+}
+
+.vacancy__item__desc {
+    margin: 10px 0;
+}
+
+.vacancy__item__dep_name {
+    margin-top: auto;
+}
+
+.vacancy__item__response__btn {
+    justify-self: end;
+    width: 20%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.vacancies__pair {
+    margin: 8px 0;
+}

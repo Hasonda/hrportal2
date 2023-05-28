@@ -1,0 +1,24 @@
+#root {
+    width: 80%;
+    justify-self: center;
+    height: 100%;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    display: grid;
+    background: #a2e3ea;
+}
+
+.page__title {
+    margin: 30px 20px;
+}
+
