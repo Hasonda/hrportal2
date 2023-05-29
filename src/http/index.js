@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const API_URL = 'http://1532773-cx56354.twc1.net/api/v1/'
 const $api = axios.create({
-    // withCredentials: true,
+    withCredentials: true,
     baseURL: API_URL
 })
 
