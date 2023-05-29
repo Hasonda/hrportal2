@@ -1,4 +1,4 @@
-import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/UI/Navbar";
 import React, {useContext} from "react";
 import Home from "./pages/Home";
@@ -24,7 +24,6 @@ function App() {
                 <Route path={'/profile'} element={<Profile/>}/>
                 <Route path={'/resume'} element={<Resume/>}/>
                 <Route path={'/vacancysubmit'} element={<VacancySubmit/>}/>
-                {/*<Route path={'/resumedashboard'} element = {<ResumeDashboard/>}/>*/}
             </Routes>
             <Footer/>
         </div>

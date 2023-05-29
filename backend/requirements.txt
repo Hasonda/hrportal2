@@ -1,9 +1,0 @@
-databases
-SQLAlchemy
-fastapi
-pydantic
-starlette
-pathlib
-python-dotenv
-passlib
-uvicorn
