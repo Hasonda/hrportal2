@@ -8,7 +8,7 @@ const Resume = () => {
     }, [])
 
     async function fetchResumeData() {
-        const response = await $api.get('http://1532773-cx56354.twc1.net/api/v1/summary/')
+        const response = await $api.get('/summary')
         setCitizenship(response.data.citizenship)
         setSkills(response.data.skills)
         setExperience(response.data.experience)
