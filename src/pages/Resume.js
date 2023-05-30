@@ -8,7 +8,7 @@ const Resume = () => {
     }, [])
 
     async function fetchResumeData() {
-        const response = await $api.get('/summary')
+        const response = await $api.get('https://1532773-cx56354.twc1.net/api/v1/summary')
         setCitizenship(response.data.citizenship)
         setSkills(response.data.skills)
         setExperience(response.data.experience)
@@ -24,7 +24,7 @@ const Resume = () => {
     }
 
     async function putResume(res) {
-        await $api.put('/summary/',res)
+        await $api.put('https://1532773-cx56354.twc1.net/api/v1/summary',res)
     }
 
     const handleMove = () => {

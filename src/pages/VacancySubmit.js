@@ -99,7 +99,7 @@ const VacancySubmit: FC = () => {
                        placeholder="Описание"/></div>
             <div className={'vac__buttons'}>
                 <button className={'vac__button'}
-                        onClick={() => $api.post('/vacancy/', vacancy)}>Добавить
+                        onClick={() => $api.post('https://1532773-cx56354.twc1.net/api/v1/vacancy/', vacancy)}>Добавить
                 </button>
             </div>
 

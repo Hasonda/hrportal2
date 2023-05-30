@@ -13,7 +13,7 @@ const Home = () => {
     }, [])
 
     async function fetchVacancies() {
-        const response = await axios.get('http://1532773-cx56354.twc1.net/api/v1/vacancy/?limit=15')
+        const response = await axios.get('https://1532773-cx56354.twc1.net/api/v1/vacancy/?limit=15')
         setVacancies(response.data)
         setVac2(response.data)
     }
